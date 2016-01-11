@@ -2,45 +2,62 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="3">
+  <link rel="stylesheet" type="text/css" href="css/main-jvallejo.css" media="all">
     <title>Etiquetas</title>
 </head>
 <body>
-  <h1>Etiquetas para texto (10)</h1>
+  <header>
+    <nav>
+      <ul class="navbar">
+          <li><a href="etiquetes-jvallejo.html">Etiquetas</a>
+          <li><a href="estils-jvallejo.html">Estilos </a>
+          <li><a href="taula-jvallejo.html">Tabla </a>
+      </ul>
+    </nav>
+  </header>
+  <h1>Etiquetas HTML</h1>
+
+    <h2>Etiquetas para texto </h2>
 
       <h3>&lt;strong&gt; &lt;/strong&gt;</h3>
-        <p> 1. <strong>Representa un texto especialmente importante.</strong></p>
+        <p> <strong>Representa un texto especialmente importante.</strong></p>
 
       <h3>&lt;small&gt; &lt;/small&gt;</h3>
-        <p> 2. <small>Representa un comentario aparte, es decir, textos como un descargo de responsabilidad o una nota de derechos de autoría, que no son esenciales para la comprensión del documento.</small></p>
+        <p> <small>Representa un comentario aparte, es decir, textos como un descargo de responsabilidad o una nota de derechos de autoría, que no son esenciales para la comprensión del documento.</small></p>
 
       <h3>&lt;s&gt; &lt;/s&gt;</h3>
-        <p> 3. <s>Representa contenido que ya no es relevante, lo tacha.</s></p>
+        <p>  <s>Representa contenido que ya no es relevante, lo tacha.</s></p>
 
       <h3>&lt;q&gt; &lt;/q&gt;</h3>
-        <p> 4.<q>Representa una cita textual</q> </p>
+        <p> <q>Representa una cita textual</q> </p>
 
       <h3>&lt;abbr&gt; &lt;/abbr&gt;</h3>
-        <p> 5.Representa una abreviación o un acrónimo; la expansión de la abreviatura puede ser representada por el atributo title.</p>
+        <p> Representa una abreviación o un acrónimo; la expansión de la abreviatura puede ser representada por el atributo title.</p>
 
       <h3>&lt;code&gt; &lt;/code&gt;</h3>
-        <p> 6. <code> Representa un código de ordenador.</code></p>
+        <p>  <code> Representa un código de ordenador.</code></p>
 
-      <h3>&lt;sub&gt; &lt;/sub&gt; &lt;sup&gt; &lt;/sup&gt;</h3>
-        <p> 7 y 8.Representan un <sub>subíndice</sub> y un <sup>superíndice</sup>, respectivamente.</p>
+      <h3>&lt;sub&gt; &lt;/sub&gt; </h3>
+        <p> Representan un <sub>subíndice</sub> </p>
+
+      <h3>&lt;sup&gt; &lt;/sup&gt;</h3>
+        <p> Representan un <sup>superíndice</sup></p>
 
       <h3>&lt;p&gt; &lt;/p&gt;</h3>
-        <p> 9. Esta etiqueta nos permite crear un parrafo.</p>
+        <p> Esta etiqueta nos permite crear un parrafo.</p>
 
       <h3>&lt;h + "un numero del 1 al 6"&gt; &lt;/h + "el mismo numero"&gt;</h3>
-        <p> 10. Esta etiqueta nos permite crear un encabezado.</p>
+        <p> Esta etiqueta nos permite crear un encabezado.</p>
 
-  <h1>Etiquetas para cita (1)</h1>
+    <h2>Etiquetas para cita </h2>
+
+      <h3>&lt;blockquote&gt; &lt;/blockquote&gt;</h3>
+        <p>La etiqueta blockquote nos permite escrivir una cita.</p>
 
       <h3>&lt;cite&gt; &lt;/cite&gt;</h3>
-        <p> 1. Representa el título de una obra. Ejemplo:<cite> &lt;cite&gt;La mate porque era mia.&lt;/cite&gt;</cite></p>
+        <p>Representa el título de una obra. Ejemplo:<cite> &lt;cite&gt;La mate porque era mia.&lt;/cite&gt;</cite></p>
 
-  <h1>Etiquetas para imagen (2)</h1>
+    <h2>Etiquetas para imagen </h2>
         <p>Para insertar una imagen podemos utilizar las siguientes etiquetas:</p>
 
       <h3>&lt;img&gt; </h3>
@@ -53,16 +70,16 @@
           <img src="img/pokemon.svg">
         <p> <small>También tenemos otras, como por ejemplo la etiqueta picture, pero esta es demasiado nueva y aun no la entienden los navegadores.</small></p>
 
-  <h1>Etiquetas para enlace (1)</h1>
+  <h2>Etiquetas para enlace </h2>
 
       <h3>&lt;a&gt; &lt;/a&gt;</h3>
-        <p> 1. Esta etiquieta nos sirve para añadir un link. </p>
+        <p> Esta etiquieta nos sirve para añadir un link. </p>
         <p> <a href="http://barresiones.com/moodle/"> Moodle del Barres i Ones</a> </p>
         <p>Para que el link se nos abra en una nueva pagina deberemos usar target="_blank"&gt;</p>
         <p>ejemplo: &lt;a href="http://barresiones.com/moodle/"target="_blank"&gt;nombre del link&lt;/a&gt;
         <p> <a href="http://barresiones.com/moodle/"target="_blank"> Moodle del Barres i Ones</a> </p>
 
-  <h1>Etiquetas para ordenar contenido (4)</h1>
+  <h2>Etiquetas para ordenar contenido </h2>
       <h3>&lt;div&gt; &lt;/div&gt;</h3>
         <p>Se emplea para definir un bloque de contenido o de sección de página.</p>
 
@@ -75,11 +92,17 @@
       <h3>&lt;footer&gt; &lt;/footer&gt;</h3>
         <p>Es el pié de la página de una sección o un articulo.</p>
 
-  <h1>Etiquetas para lista (3)</h1>
+  <h2>Etiquetas para lista </h2>
         <h3>&lt;li&gt; &lt;/li&gt;</h3>
           <p> Esta etiqueta nos sirve para listar una serie de palabras.</p>
             <li>Futbol</li>
             <li>Petanca</li>
             <li>Criquet</li>
+        <h3>&lt;ol&gt; &lt;/ol&gt;</h3>
+          <p> Esta etiqueta nos sirve para hacer una lista ordenada.</p>
+        <h3>&lt;ul&gt; &lt;/ul&gt;</h3>
+          <p> Esta etiqueta nos sirve para hacer una lista desordenada, sin orden alguno.</p>
+        <h3>&lt;dl&gt; &lt;/dl&gt;</h3>
+          <p> Esta etiqueta nos sirve para hacer una lista descriptiva.</p>
 </body>
 </html>
