@@ -13,6 +13,7 @@ color: #81BEF7;
 text-align: center;
 font-size: 50px;
 font-family: Arial;
+margin-top: -50px;
 }
 
 h2 {
@@ -20,7 +21,7 @@ color: #2E64FE;
 text-align: left;
 font-size: 25px;
 margin-left: 25px;
-margin-top: 25px;
+margin-top: 30px;
 }
 
 img {
@@ -55,14 +56,16 @@ font-size: 20px;
 }
 
 td {
-  margin: 4px;
+  padding: 4px;
   text-align: left;
 }
 
 table {
-  margin-left: 90px;
+  margin-left: 50px;
   margin-right: 25px;
+  margin-top: 30px;
   border-collapse: collapse;
+
 }
 
 header {
@@ -153,4 +156,7 @@ nav > ul li a{
 }
 .margin{
 	margin-left: 40px;
+}
+blockquote {
+  margin-left: 40px;
 }
